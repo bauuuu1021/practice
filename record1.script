@@ -1,0 +1,76 @@
+Script started on 2016年03月14日 (週一) 22時01分19秒
+]0;F74041145@2015cpp: ~/practice/0314F74041145@2015cpp:~/practice/0314$ git add .
+fatal: Not a git repository (or any parent up to mount parent )
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+]0;F74041145@2015cpp: ~/practice/0314F74041145@2015cpp:~/practice/0314$ git status
+fatal: Not a git repository (or any parent up to mount parent )
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+]0;F74041145@2015cpp: ~/practice/0314F74041145@2015cpp:~/practice/0314$ git init
+Initialized empty Git repository in /home/F74041145/practice/0314/.git/
+]0;F74041145@2015cpp: ~/practice/0314F74041145@2015cpp:~/practice/0314$ git add .
+]0;F74041145@2015cpp: ~/practice/0314F74041145@2015cpp:~/practice/0314$ git stati[Kus
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   record1.script
+#	new file:   test1
+#	new file:   test1.cpp
+#
+]0;F74041145@2015cpp: ~/practice/0314F74041145@2015cpp:~/practice/0314$ git commit
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".git/COMMIT_EDITMSG" 14L, 329C[>c[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch [m[35mmaster[m
+[34m#
+# Initial commit
+#
+# [m[35mChanges to be committed:[m
+[34m#   (use "git rm --cached <file>..." to unstage)
+#
+#       [m[32mnew file[m[34m: [m[31m  record1.script[m
+[34m#       [m[32mnew file[m[34m: [m[31m  test1[m
+[34m#       [m[32mnew file[m[34m: [m[31m  test1.cpp[m
+[34m#[m
+[1m[34m~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,0-1[8C全部[1;1H[?12l[?25h[?25l[24;1H[1m-- 插入 --[m[24;11H[K[24;63H1,1[10C全部[1;1H[?12l[?25h[?25l[33mg[m[24;65H2[1;2H[?12l[?25h[?25l[33mgo[m[24;65H3[1;3H[?12l[?25h[?25l[33mog[m[24;65H4[1;4H[?12l[?25h[?25l[33mgo[m[24;65H5[1;5H[?12l[?25h[?25l[2;23r[2;1H[L[1;24r[24;63H[K[24;63H2,1[10C全部[2;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[1;1H[33mgogo[m[23;1H[1m[34m~                                                                               [m[24;63H[K[24;63H1,5[10C全部[1;5H[?12l[?25h[24;1H[K[1;4H[?25l[24;63H1,4[10C全部[1;4H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 14L, 333C 已寫入
+[?1l>[?12l[?25h[?1049l[master (root-commit) 6b975e7] gogo
+ 2 files changed, 9 insertions(+)
+ create mode 100644 record1.script
+ create mode 100755 test1
+ create mode 100644 test1.cpp
+]0;F74041145@2015cpp: ~/practice/0314F74041145@2015cpp:~/practice/0314$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+]0;F74041145@2015cpp: ~/practice/0314F74041145@2015cpp:~/practice/0314$ git remotw[Ke add practice https://github.com/bb oy010554/practice.git
+]0;F74041145@2015cpp: ~/practice/0314F74041145@2015cpp:~/practice/0314$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+]0;F74041145@2015cpp: ~/practice/0314F74041145@2015cpp:~/practice/0314$ git push[Kgit pushremote add practice https://github.com/bbooy010554/practice.git
+fatal: remote practice already exists.
+]0;F74041145@2015cpp: ~/practice/0314F74041145@2015cpp:~/practice/0314$ git push -i[Kupra[K[K[K practice master
+Username for 'https://github.com': bboy010554
+Password for 'https://bboy010554@github.com': 
+To https://github.com/bboy010554/practice.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from practice.
+]0;F74041145@2015cpp: ~/practice/0314F74041145@2015cpp:~/practice/0314$ ^C
+]0;F74041145@2015cpp: ~/practice/0314F74041145@2015cpp:~/practice/0314$ exit
+
+Script done on 2016年03月14日 (週一) 22時15分32秒
